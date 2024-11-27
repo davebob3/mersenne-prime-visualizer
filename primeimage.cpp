@@ -3,7 +3,7 @@
 //  Mersenne Prime Image
 //
 //  Created by David Robson on 2/23/13.
-//  Copyright (c) 2013 David Robson. All rights reserved.
+//  Copyright (c) 2024 David Robson. All rights reserved.
 //
 
 #include <iostream>
@@ -51,7 +51,6 @@ int main(int argc, const char *argv[])
     CImg<unsigned char> image(theImageWidth, theImageHeight, 1, 3);
 
     cimg::info();
-    // int totalSize = theImageWidth * theImageHeight;
     unsigned int currentLocation = 0;
     for (unsigned int h = 0; h < theImageHeight; h++)
     {
@@ -73,6 +72,5 @@ int main(int argc, const char *argv[])
         }
     }
     image.save_png("primeimage.png");
-    //image.save_imagemagick_external("primeimage.im");
     return 0;
 }
