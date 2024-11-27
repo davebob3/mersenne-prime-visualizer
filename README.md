@@ -8,7 +8,7 @@ I thought that was ridiculous, because a Mersenne prime's specialness is best vi
 base-2.
 
 This program converts the **binary** representation of 2<sup>136279841</sup> - 1 into RGB 
-values.
+values and outputs them as a PNG image.
 
 It uses the [CImg library](https://github.com/GreycLab/CImg) to create the image.
 
